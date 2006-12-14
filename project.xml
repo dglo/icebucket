@@ -1,0 +1,36 @@
+<project>
+    <name>icebucket</name>
+    <packages default="icecube.icebucket.util">
+        icecube.icebucket.jaxb.impl
+        icecube.icebucket.jaxb.impl.runtime
+        icecube.icebucket.jmx
+        icecube.icebucket.logging
+        icecube.icebucket.net
+        icecube.icebucket.util
+    </packages>
+    <uses>
+        <libs/>
+        <tools>
+            commons-logging-api.jar
+            dom4j.jar
+            jaxb-api.jar
+            jaxb-impl.jar
+            jaxb-libs.jar
+            jaxb-xjc.jar
+            jboss-common.jar
+            jboss-jmx.jar
+            jboss-remoting.jar
+            jboss-jmx-remoting.jar
+            junit.jar
+            log4j.jar
+            relaxngDatatype.jar
+			xsdlib.jar
+        </tools>
+    </uses>
+    <test>
+        <uses>
+            <libs/>
+            <tools/>
+        </uses>
+    </test>
+</project>

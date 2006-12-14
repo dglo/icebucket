@@ -1,0 +1,9 @@
+README file for user's specified logging appenders:
+Akbar Mokhtarani, LBNL, 11/18/2004
+
+The LogginConsumer class has a method installDefaults(File inFile) that allows 
+users pass a 'File' object and setup appenders of their choice with different
+logging level than the default setup by the server. 
+I have included example_1.xml as a sample of user's file that is passed 
+to LogginConsumer.installDefaults(File) and ReadXMLFile.java, a simple 
+example demonstrating how it is used. 

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema targetNamespace="http://glacier.lbl.gov/icecube/xml/example/jaxb"
+    xmlns="http://glacier.lbl.gov/icecube/xml/example/jaxb"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:annotation>
+        <xs:documentation> This Schema is a example schema to show how JAXB can
+ be used to marshal and unmarshall XML.</xs:documentation>
+    </xs:annotation>
+    <xs:element name="wallace" type="xs:integer"/>
+    <xs:element name="gromit" type="xs:string"/>
+    <xs:element name="wallaby">
+        <xs:complexType>
+            <xs:choice maxOccurs="unbounded" >
+                <xs:element ref="gromit"/>
+                <xs:element ref="wallace"/>
+            </xs:choice>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

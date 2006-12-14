@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jxb:bindings version="1.0" xmlns:jxb="http://java.sun.com/xml/ns/jaxb"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/jaxb file:/Volumes/IceCube/Distributions/JWSDP/bindingschema_1_0.xsd">
+    <jxb:bindings node="/xs:schema" schemaLocation="dummy.xsd">
+        <jxb:schemaBindings>
+            <jxb:package name="icecube.icebucket.jaxb">
+                <jxb:javadoc><![CDATA["A dummy class for creating the JAXB runtime classes"]]></jxb:javadoc>
+            </jxb:package>
+        </jxb:schemaBindings>
+    </jxb:bindings>
+</jxb:bindings>

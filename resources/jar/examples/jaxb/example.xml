@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wallaby
+    xmlns="http://glacier.lbl.gov/icecube/xml/example/jaxb"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <gromit>shaun</gromit>
+    <wallace>86</wallace>
+</wallaby>
